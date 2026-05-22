@@ -1,0 +1,39 @@
+# robots.txt for emiliefiliondonato.com
+# Sex Test: Inside the IOC's Fifty-Year Quest to Decide Who Counts as a Woman
+
+User-agent: *
+Allow: /
+
+# Reputable AI search crawlers — welcome to index this site
+User-agent: GPTBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: anthropic-ai
+Allow: /
+
+User-agent: Googlebot
+Allow: /
+
+User-agent: bingbot
+Allow: /
+
+# AI training scrapers without clear opt-out mechanisms — disallowed
+User-agent: CCBot
+Disallow: /
+
+User-agent: omgili
+Disallow: /
+
+User-agent: omgilibot
+Disallow: /
+
+Sitemap: https://emiliefiliondonato.com/sitemap.xml
